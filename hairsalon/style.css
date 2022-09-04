@@ -1,0 +1,262 @@
+body {
+    background-color: #CCD6D2;
+    font-family: 'font-family: 'DynaPuff', serif;';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Main header */
+
+.headername {
+    border-radius: 1%;
+}
+
+
+/* Main header pic */
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 0.5;
+}
+
+
+/* Navbar */
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    float: center;
+    display: block;
+    height: 50px;
+    width: 97%;
+    border-radius: 50px;
+    background-color: #AFB4A5;
+    position: relative;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+
+
+/* Navbar text */
+
+a {
+    color: #F2CBC2;
+    text-decoration: none;
+    font-size: 35px;
+    text-shadow: 1px 1px #a4a3a7;
+}
+
+a:hover {
+    color: #ebe8ed;
+}
+
+
+/* middle section description */
+
+h1 {
+    font-size: 3rem;
+    color: #F2CBC2;
+    text-shadow: 1px 2px #a4a3a7;
+    text-align: center;
+}
+
+
+/* who we are section */
+
+h3 {
+    text-align: center;
+    font-size: 6rem;
+    color: #F2CBC2;
+    text-shadow: 1px 2px #a4a3a7;
+}
+
+
+/* promo header text */
+
+h4 {
+    text-align: center;
+    font-size: 3rem;
+    color: #F2CBC2;
+    text-shadow: 1px 2px #a4a3a7;
+}
+
+
+/* Promo middle text */
+
+h5 {
+    text-align: center;
+    font-size: 3rem;
+    color: #F2CBC2;
+    text-shadow: 1px 2px #a4a3a7;
+}
+
+hr {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+/* Promo section */
+
+.promoback {
+    background-color: #AFB4A5;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.promo {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 50px;
+    background-image: url("image/hairproducts.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Middle section text */
+
+.hairtext {
+    font-family: 'font-family: 'DynaPuff', serif;';
+    color: #AFB4A5;
+    text-shadow: 0 0 15px #a4a3a7;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+
+
+/* Middle section background for text */
+
+.hairbackgroud {
+    background-color: #F9E7E0;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    height: 15%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+
+/* Middle section description with pic */
+
+.lights {
+    background-color: #AFB4A5;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+    padding: 3px;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.style {
+    background-color: #AFB4A5;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+    padding: 3px;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.color {
+    background-color: #AFB4A5;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+    padding: 3px;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.redhair,
+.darkhair,
+.blondhair {
+    margin-bottom: 10%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    border-radius: 20%;
+    padding: 5px;
+    width: 70%;
+    height: 50%;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Who we are group section */
+
+.groupgirls {
+    background-color: #AFB4A5;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+    height: 150%;
+}
+
+.group {
+    padding: 5px;
+    width: 70%;
+    height: 70%;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    margin-left: 15%;
+}
+
+
+/* Footer text */
+
+p {
+    font-family: 'font-family: 'DynaPuff', serif;';
+    color: #f1eff7;
+    text-shadow: 0 0 15px #a4a3a7;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    margin-top: 10%;
+}
+
+.footerImage {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    height: 90px;
+    margin-top: 10%;
+    opacity: 0.5;
+}
